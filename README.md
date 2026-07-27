@@ -25,14 +25,6 @@ The architecture is generic and can be adapted to various domains such as hotels
 
 ---
 
-# Chatbot
-
-
-<p align="center">
-  <img src="chatss.png" width="600">
-</p>
-
----
 
 # 🧠 RAG Pipeline
 
@@ -182,7 +174,7 @@ If validation fails, the chatbot attempts regeneration or returns a safe fallbac
 # 💬 Chatbot Demo
 
 <p align="center">
-  <img src="assets/chatbot_demo.png" width="500">
+  <img src="/chatss.png" width="600">
 </p>
 
 Example interaction showing the chatbot answering customer queries using information retrieved from the indexed business knowledge base.
@@ -383,4 +375,3 @@ Response
 
 **Areeba Ghazal**
 
-GitHub: https://github.com/areebaghazal88
