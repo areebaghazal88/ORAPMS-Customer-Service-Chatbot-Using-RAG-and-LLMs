@@ -25,12 +25,11 @@ The architecture is generic and can be adapted to various domains such as hotels
 
 ---
 
-# 🏗️ System Architecture
+# Chatbot
 
-> Replace the image below with your architecture diagram.
 
 <p align="center">
-  <img src="assets/rag_pipeline.png" width="900">
+  <img src="chatss.png" width="600">
 </p>
 
 ---
