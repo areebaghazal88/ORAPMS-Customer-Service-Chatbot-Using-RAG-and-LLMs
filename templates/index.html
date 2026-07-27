@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your AI Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div id="chat-toggle" class="chat-toggle">💬</div>
+
+  <div class="chat-container" id="chat-container">
+    <div class="header">
+      Your AI Assistant
+      <span class="close-btn" id="close-btn">×</span>
+    </div>
+    <div class="chat-box" id="chat-box"></div>
+    <div class="input-area">
+      <input type="text" id="user-input" placeholder="Type your message..." />
+      <button id="send-btn">➤</button>
+    </div>
+  </div>
+
+  <!-- ✅ Add Markdown + Sanitizer libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.4/dist/purify.min.js"></script>
+
+  <!-- ✅ Your JS file -->
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

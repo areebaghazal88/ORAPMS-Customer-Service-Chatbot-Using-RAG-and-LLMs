@@ -1,0 +1,9 @@
+flask
+requests
+wfastcgi
+huggingface_hub
+sentence_transformers
+qdrant_client
+langchain
+python-dotenv
+pyspellchecker

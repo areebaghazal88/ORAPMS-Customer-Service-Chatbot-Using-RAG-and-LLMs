@@ -1,0 +1,779 @@
+Welcome to ORA PMS dashboard. In this tutorial we will walk you through the room category tab
+under the add room section where you can define and manage your hotel room types, check-in, outs,
+and additional services. To begin look at the top of the page where it says, add new category,
+this is where you can define new categories of rooms in your property. Click the add new category
+button at the top right to add new room category. You will be asked to specify some details like,
+title of the category, number of rooms available under that category, adult spaces, under children
+spaces you can specify how many children can stay, in cot spaces you can specify how many baby
+sleeping spaces are available. After saving the added information will be displayed in the table.
+You can update and delete this information from here using blue pencil icon and the trashcan
+icons. As this software is integrated with OTA platforms this detail will dynamically be uploaded
+on them. Next we move to check-in out section. This is where you can specify the policy for specific
+check-in out cases. There are three listed categories. 1. Late checkout with an extra
+charge of 20%. 2. Late check-in with no additional cost. 3. Early check-in with 10% extra charge.
+These charges are applied based on 24-hour span. You can delete these terms anytime using options
+on right hand side. To update these policies simply click the check-in out terms button on top.
+From where you can apply the time and percentage of charge, the last section is extras where you
+can define additional services offered with the specified category to update click on extras
+button on the top right of the page and choose from there. That's it we are done with specifying new
+category, Further you can check the following link to access hands on tutorial about category creation:https://youtu.be/LiWswQA6OVg?si=1D9DzE56F-PZtVBi
+
+
+
+Welcome to the ORAPMS dashboard.
+In this tutorial, we'll walk you through the create rate tab under room settings,
+where you'll define base pricing, apply seasonal increments, and activate time limited discounts.
+Start at the top of the page you can see a specific base rate you can simply change it
+by clicking this option. Now here you can specify the base rate. Now let's move towards adding
+rates on top right, you'll see the create rate button CL lick on that. Choose a room type e.g.
+one bed premium. Enter the base rate in GBP e.g. type 50. This is your standard nightly price.
+Apply increments optional. In the increment percent field, add a percentage for premium
+categories. Example, 50% increases 50 pounds right pointing arrow 75 pounds automatically.
+Click save to lock this rate. Your new rate now appears in the table below. Now that you've set
+your base rate, let's talk about discounts. Your secret weapon for filling rooms during quiet
+seasons. Here's how you'd create a limited time offer. Select the discount button at the top.
+You'll now face two important questions. When should this discount run and how much should guests
+save? For our summer teaser, let's set dates from July 1st to July 10th. Type them carefully as the
+1st of July 2025 in the start date box and the 10th of July 2025 in the end date box.
+The system is strict about this format like a punctual hotel concierge. Next tell the system
+exactly where this discount applies. Select one bed premium under room category, then choose
+one bed plan from the drop down. Now the magic number enter five in the discount percent field.
+Watch how the system instantly transforms your 75 pounds rate into 71 pounds and 25 pence. It's
+like watching a price tag shrink before your eyes when everything looks perfect. Press save.
+Congratulations. You've just created your first flash sale. Review your new rate in the create
+rate table. Plan rate, 75 pounds base plus increment. Discounted rate, 71 pounds and 25
+pence with dates displayed. To edit, use the pencil icon to adjust dates or percentages.
+Remove discounts anytime with the delete icon. Changes sync instantly with connected ODA
+platforms like booking.com. You've now learned to architect hotel pricing in ORAPMS. Remember,
+base rates set your foundation, increments maximize premium value, and strategic discounts
+drive bookings. Always verify dates and percentages before saving. That's it for this module, 
+Further you can check the following link to access hands on tutorial about creating rates creation:
+https://youtu.be/3HewE7LpBdU?si=nJ7_zJhorgKVhHxO
+
+
+Today we're exploring the reservation tab under front desk, your command center for booking rooms.
+Imagine a guest just called into your hotel. Let's create their reservation together.
+First, anchor the booking in time. Under reservation dates,
+enter the arrival date and departure date. Watch how the system instantly calculates
+nights like a calendar flipping itself. Now, let's assign their room.
+Click the room category dropdown. Say we choose one bed premium.
+Then pick a rate plan. Need multiple rooms? Enter the number and hit add.
+It's like handing physical keys to your guest. Time to handle finances the hotel's heartbeat.
+In advanced receivings, enter advance paid. Select payment method like cash or card.
+Track money sources under company, source. Now, add your guests personal details.
+This is where hospitality begins. Fill fields marked with asterisks.
+First, last name. Phone number. Country, city. Helps customize their experience.
+Don't skip ID, passport. It's your legal shield. Finally, specify adults, minors.
+This ensures room safety compliance. Hit reservation to seal the booking. Instantly,
+your guest appears in the live table. Need to adjust? Use three magic buttons.
+Edit, change dates or room type. Check-in. We can do the check-in directly from here
+and from the check-in out tab as well. Cancel. Reservation can be cancelled any time from here.
+That's it for this video next time. We'll explore check-in, out,
+where reservations transform into real hotel experiences,
+Today we're exploring the reservation tab under front desk, your command center for booking rooms.
+Imagine a guest just called into your hotel. Let's create their reservation together.
+First, anchor the booking in time. Under reservation dates,
+enter the arrival date and departure date. Watch how the system instantly calculates
+nights like a calendar flipping itself. Now, let's assign their room.
+Click the room category dropdown. Say we choose one bed premium.
+Then pick a rate plan. Need multiple rooms? Enter the number and hit add.
+It's like handing physical keys to your guest. Time to handle finances the hotel's heartbeat.
+In advanced receivings, enter advance paid. Select payment method like cash or card.
+Track money sources under company, source. Now, add your guests personal details.
+This is where hospitality begins. Fill fields marked with asterisks.
+First, last name. Phone number. Country, city. Helps customize their experience.
+Don't skip ID, passport. It's your legal shield. Finally, specify adults, minors.
+This ensures room safety compliance. Hit reservation to seal the booking. Instantly,
+your guest appears in the live table. Need to adjust? Use three magic buttons.
+Edit, change dates or room type. Check-in. We can do the check-in directly from here
+and from the check-in out tab as well. Cancel. Reservation can be cancelled any time from here.
+That's it for this video next time. We'll explore check-in, out,
+where reservations transform into real hotel experiences
+Further you can check the following link to access hands on tutorial about reservation:
+https://youtu.be/g12VNBgFveo?si=Cs9PcuqfH5DKJdOX
+
+
+
+
+Welcome to  ORAPMS, your trusted hotel property management system.
+In this tutorial, we'll show you how to check in a guest using the reservation list and check in
+Out tab. Step 1. Access the reservation list. First, from the left hand menu, navigate to the
+front desk section and click on reservation list. Here, you'll see a table containing all upcoming
+or existing reservations. You can filter by start and end dates, or use the search bar to find a
+guest by phone, email, or name. In our example, two guests are listed Wahab Malik and Jack Hill.
+Beside each guest entry, under the options column, you'll find two buttons. Check in
+to begin the check-in process. Delete to cancel the reservation. Step 2. Initiate check-in.
+Click the check-in button next to the guest you want to check in, for instance, Jack Hill.
+This will automatically redirect you to the check-in, out tab, where the guest's details
+are already pre-filled based on the reservation. You can now click extend, shrink reservation,
+to modify the reservation duration if needed. Step 3. Add room and billing details. Now scroll
+down to the check-in section at the bottom. Choose a description like late or early check-in and type
+of the room or service. Enter the rate plan, room number, and rate. You can also tick the VAT check
+box if tax is applicable. Once filled, click the plus plus button to add the details to the invoice.
+Step 4. Confirm payment details. Below, you'll see a breakdown of the financials.
+Total, tax, advance paid, payable, and remaining amount. Select the payment method, like cash or
+card. Add any refundable room security, if applicable. If the guest has already made an
+advance payment, like in Jack Hill's case with five British pounds, it will be reflected here.
+Step 5. Finalize check-in. Once all the information is verified and complete,
+click the save button to confirm the check-in. After saving, a pop-up will appear asking if
+you'd like to print the receipt. If you click yes, the guest receipt will be displayed.
+At the top of the receipt, a QR code will be shown. You can easily scan it using your mobile
+phone to save or share the receipt digitally. You can click the check-out button if you're
+ending the stay, or choose card payment to process the payment electronically.
+Summary. Use the reservation list to quickly locate guests. Click check-in to open the guests
+pre-filled check-in, out form. Complete or review stay details and payment. Click save,
+then print or scan the receipt via QR code for convenience. Or a PMS makes guest check-ins
+faster, smoother, and more professional. Stay tuned for more tutorials and make
+the most out of your hospitality software.
+Further you can check the following link to access hands on tutorial about check in:
+https://youtu.be/76sBgySWFAQ?si=WQNRUCVjbW4DDJzr
+
+
+
+
+Welcome back to ORAPMS, the complete property management solution.
+In this tutorial, we'll walk you through the checkout process for a guest using the
+customer list and the check-in out tab. Step 1. Open the customer list.
+From the left side menu, expand the front desk section and click on customer list.
+Here, you'll see a record of all current and past guests.
+Locate the guest who is checking out and copy their member ID from the table.
+Step 2. Access the check-in out tab.
+Next, click on the check-in out tab under the same front desk section.
+In the search bar at the top right corner, paste or enter the member ID you just copied
+and click the search icon. The system will fetch and display the complete reservation
+and billing details of the guest, including name, arrival and departure information,
+contact details, company, source, and number of guests, room assignment, number of nights,
+and charges. Step 3. Pay remaining balance.
+Before proceeding to checkout, scroll down to the billing section.
+Here, carefully review the total amount, advance paid, remaining balance, and payable amount.
+If there is any amount still payable, it must be cleared first.
+Enter the paid amount field and select the payment method, such as cash or card.
+Once the due amount is settled, you're ready to check the guest out.
+Step 4. Complete the checkout.
+Now, simply click on the checkout button located at the bottom.
+A confirmation pop-up will appear asking if you would like to print the guest receipt.
+Receipt and QR code.
+If you click yes, the guest receipt will open immediately.
+At the top of the receipt, a QR code is provided,
+allowing you to scan it using your smartphone and download or share the digital receipt easily.
+Summary.
+Use the customer list to locate the guest and copy their member ID.
+Paste the ID in the check-in, out search bar to load reservation details.
+Clear any pending dues and verify the payment.
+Click checkout, then choose to print or scan the receipt via QR code.
+That's it!
+The guest has been successfully checked out using Aura PMS, quick, accurate, and paperless.
+Further you can check the following link to access hands on tutorial about check  out:https://youtu.be/76sBgySWFAQ?si=ltVnCr8-1fEAzkcr
+
+
+
+Welcome to ORA PMS. The all-in-one hotel management platform. In this tutorial,
+we'll guide you through the process of adding a new room to your property using the room
+setting section. Step 1. Open the add room tab. From the left-hand navigation panel,
+expand the room setting drop down and click on add room. This takes you to the add room interface,
+where you can create new rooms under predefined categories. Step 2. Select room category enter
+room number. In the room description form, first, select the desired room category from the drop
+down, for example, one bed premium or two bed premium. Next, assign a unique room number to
+the new room, such as 101, 102, etc. Once both fields are filled, click the add button. The newly
+added room will now appear in the list of added rooms below the form. Room limit logic. Important
+note. If the number of rooms you're adding is within the total room limit specified under the
+selected category in room category settings, the system will accept the new room smoothly. However,
+if you try to exceed the allowed number of rooms, a pop-up alert will appear, and the system will
+not allow the room to be added. Step 3. How to extend the room limit if needed. If you encounter
+this restriction, don't worry. Simply go to the room category tab under the room setting section.
+In the category table, locate the category you're working with, and click the update icon
+under the options column. Now, update the total rooms count to a higher number that fits your
+needs. For instance, increase it from eight to nine and click save. Once the new limit is saved,
+return to the add room tab and you can now add more rooms without any issue.
+Summary. Go to room setting, add room. Select the category and assign a room number.
+Click add to register the room. If the room exceeds the category limit,
+update the room count via room category update save. Then return to add room and proceed as
+needed. ORA PMS ensures your property data stays structured, controlled, and easy to manage.
+Write down to the last room.
+Further you can check the following link to access hands on tutorial about Add new room: 
+https://youtu.be/udy0rD8NCfQ?si=yDxxvjkFRvzlwFao
+
+This is the cash book of ORAPMS Hotel System.
+Please select your shift.
+1. Morning shift
+2. Evening
+3. Night shift
+Enter your choice.
+Your selected shift has been recorded successfully.
+Now, here's a summary of your transaction categories.
+In the cash section, all payments received directly in cash from guests are recorded.
+In the bank transfer section, all amounts received through online banking or card machines are listed.
+The complementary section includes free bookings, for example,
+VIP guests or approved stays with no payment.
+And the credit section contains all bookings that are made using credit card.
+At the top right corner of the screen, you will see a print button
+click the print button first to generate the transaction report.
+After printing, the transaction will be saved into the system.
+Warning please remember, always click print before post.
+If you click post first all unsaved data may be lost or reset.
+Once printed and verified, now click the post button to finalize your shift.
+Posting complete.
+Your records have been submitted successfully.
+Thank you.
+Further you can check the following link to access hands on tutorial about Cashbook: https://youtu.be/5mnicSQ9fmQ?si=iL4EDkwIzp_24QzQ
+
+
+In Calendar, you're smart solution for managing room reservations with ease,
+accuracy and full visibility. This intuitive calendar interface gives hotel staff a clear
+overview of all room bookings in real time. Each row represents a room like room 101, 102 or 103.
+Each column represents a date. With just a glance you can instantly see which rooms are
+booked, available or under maintenance. All color coded for clarity.
+Let's break down the color codes. Purple square checked in guests are marked in purple. You can
+view guest details, extend stays, change rooms, schedule wake-up calls or even order food.
+White large square checked out guests appear in gray. Use this to review past guest info or get
+ready to check in someone new. Orange square reservations are highlighted in orange. They
+show upcoming bookings, with quick access to check-in actions. Honeypot same-day turnovers
+use a honey color, indicating that the room will both check out and check in on the same day.
+No entry empty slots or blank spaces, meaning the room is free and ready to be booked.
+Red circle not paid, shown in red, indicates unpaid bills.
+Yellow circle partially paid, shown in yellow, means some payment has been received,
+but not all. Green circle fully paid, in green, shows the guest has settled their account
+completely. Lock locked entries are view only. Pencil editable items allow staff to make changes.
+Ledger notebook icons let you take notes, add internal remarks, reminders or housekeeping
+comments. At the top of the calendar, you can view the next 7 days, the next 15 days,
+or the full 30-day schedule. You can also set your own custom date range, tailored to your needs.
+Want to know who's staying? Just hover over any booking, and you'll instantly see guest details,
+including name, number of nights, check-in date, and contact info. Need pricing? Use the built-in
+rate panel to select your dates and view available plans, like one-bed premium, two-bed premium,
+and more. Each room type has its own rates and booking options. The system also keeps track of
+how many rooms are available, how many are booked, and how many are marked dirty or being cleaned.
+With this smart calendar view, hotel staff can check mark assign rooms, check mark monitor guest
+stays, check mark update cleaning statuses, check mark and plan ahead, all in one place.
+It's fast, visual, and fully organized, making your daily operations smoother,
+faster, and more reliable. This isn't just a calendar, it's your hotel's command center,
+for managing occupancy, enhancing guest experiences, and maximizing efficiency.
+Thank you for choosing the hotel calendar.
+Further you can check the following link to access hands on tutorial about ORA PMS FDO Calendar View :https://youtu.be/KY1HF47JfbQ?si=FS5GZgiKx8gGz0K_
+
+Welcome to ORA PMS, your smart solution for managing hospitality services with precision
+and ease. In this tutorial, we'll guide you through the process of adding housekeeping
+checklist questions under the upkeep services module. Step one, open the add questions tab.
+Begin by navigating to the upkeep services drop down on the left hand panel. From there,
+click on add questions under the housekeeping section. You are now in the add housekeeping
+checklist interface. Step two, select or create a checklist category. In this section,
+you will first need to select a checklist category from the drop down menu. If no suitable category
+exists, you can create one by clicking the add new category button right from this screen.
+Enter the new category name and save it. It will now be available in the drop down for use.
+Step three, add a checklist question. In the add checklist field, type the question or task
+you want to include in the housekeeping process. For example, is the bathroom cleaned or are fresh
+towels provided? After entering your question, click on the add question button. The added
+question will immediately appear in the live table below confirming that it has been saved successfully.
+Step four, manage existing questions. The checklist table supports full editing and management.
+Use the edit icon to modify an existing question. Use the delete icon to remove it if it's no longer
+needed. This allows you to keep your housekeeping tasks up to date with changing standards.
+Step five, view questions in housekeeping interface. Once your questions are added,
+go to the housekeeping module from the same upkeep services drop down. Select the available
+room and you'll now see the questions you added under the assigned category ready to be used by
+your housekeeping staff for quality checks and task confirmation. Summary, go to upkeep services,
+add questions, select or create a checklist category. Enter your question and click add
+question. Manage existing entries through the options column. View the checklist live in the
+housekeeping tab by selecting a room. With ORA PMS, housekeeping becomes systematic,
+measurable and effortlessly organized.
+Further you can check the tech geni uk you tube channel to access hands on tutorial about How to Add Housekeeping Inspection Questions in ORA PMS: https://youtu.be/J8Y_jIZRGZg?si=FrFrAqNKjsBX5B2d
+
+The room availability setup screen in ORAPMS displays daywise room availability, rates, and
+net bookings for each room type e.g., one bed premium, two bed premium, and is tightly integrated
+with the calendar and reservation modules. Under date range selection, users can choose from the
+selectors for 7 days, 15 days, or 1 month, or manually select start date and end date if they
+want to view records for specific custom dates. The room availability grid contains rows for
+availability rooms available for booking, multiple rate plans, and net booking rooms already reserved
+or checked in. These values automatically change with respect to reservation and check-in module.
+Availability decreases upon check-in or reservation and increases upon check-out.
+The save record button is used to save the data that displays on the screen to the database.
+Each grid cell has an upload status color code. White means the data is saved and uploaded to both
+database and channel manager. Green indicates it is saved in database but not uploaded to channel
+manager. And red means the data is neither saved nor uploaded. If a property is connected to channel
+manager, three additional buttons become active. Upload to channel manager button pushes updated
+data from the database to the external channel manager. Bulk rate button allows you to update
+room rates for range of date at once, whether it's for a single day or up to a full year,
+and bulk availability button allows you to update room availability for range of date at once,
+whether it's for a single day or up to a full year. In category filters, we can select room
+category to change the rate plan or availability for specific category. The typical workflow is,
+select date range added availability, rates click save record upload to channel manager.
+For bulk upload use bulk rate availability buttons. This interface ensures centralized,
+real-time control over rate and room availability.
+Further you can check the following link to access hands on tutorial about availability services: https://youtu.be/vtU_6scdQ1k?si=GSwTQcwU6yc7Wycd
+
+
+
+
+Hello everyone. Today we will learn how to work with the ORAPMS dashboard. There are four major
+parts in the dashboard each represent their subparts which include the financial details,
+reservation check-ins detail, room details, staff and customer details.
+Let's begin with financial details section. There are eight subparts of financial details,
+which include revenue, receivable, room security, purchasing and so on that let's talk about total
+revenue. This part represent the overall earnings from room bookings and other services provided.
+It is also linked with cash book. You can see the revenue details by clicking on the revenue card.
+Moving to the next section, receivables. This part represent due amounts from guests.
+Moving to the next section, payable room security. This part represent amount taken as room security
+from the guests and need to return on guest checkout. Moving to the next section, purchasing
+inventory. This part represent total rate of items that were purchased during the date range.
+Invoice received. This part represent total bill of purchased item during the date range.
+Payments to supplier. Represent amount paid to suppliers for the invoices received during the
+date range. Partial expenses. Represent total expense by the property during the date range.
+Operational profit loss. Represent total profit loss by the property during the date range by
+calculating the total revenue and total expense. Now moving to the next section, reservation
+check-in. There are six predefined subparts of reservation check-in. Details, which include
+check-in, upcoming check-in, no show, cancellation, expected check-ins, expected check-outs and one
+reservation check-in source based. Dynamic card list. Check-in represent total numbers of guest
+check-ins during the date range upcoming check-in. Represent guest check-ins to be no show.
+Represent total numbers of guest don't show up and mark their reservation as no show during the
+date range cancellation. Represent total numbers of reservations cancelled during the date range.
+Expected check-ins represent total numbers of guest to be check-in today. Expected check-outs
+represent total numbers of guest to be check-out today. Reservation check-in source based dynamic
+Card List represents the no of check-ins for that specific source in the selected date range.
+This list is dynamic and can vary between dates. Now, moving to the next section,
+Rooms, there are six predefined subparts of Rooms section, which include Total Rooms,
+Total Occupancy Available Rooms, Blocked Rooms, Dirty Rooms, and Current Guests.
+Total Rooms, represents to total rooms registered on this property Total Occupancy,
+represents no of rooms currently occupied. Available Rooms, represents no of rooms
+currently available.Blocked Rooms, represents no of rooms currently blocked.Dirty Rooms,
+represents no of rooms currently dirty and need to fix by the housekeeping staff.Current Guests,
+represents no of guest present at the property. This section gives real-time details of the
+property rooms. Now, moving to the next section, Staff and Customer, there are two predefined card
+for Staff and Customer section which are Total Staff, and Registered Customer, Total Staff,
+represent the total staff registered on the property and also highlight the no of staff
+that is present today. Registered Customers, represent the no of guest registered during
+the selected date range. There is also Staff Department based list which is dynamic and
+represent the no of employees for each department. Each card in dashboard shows dynamic data and
+able to show the details. To see the details of the data, just click on the card. If it has any
+details to show a pop-up will appear with the details. Reservations Details, represent the details
+of reservation of selected range in graph revenue and expense. Represent the details of revenue and
+expense of selected range in graph occupancy stats. Represent the details of occupancy status
+of selected range in graph revenue. Represents the details of total revenue in table of selected
+range from different sources, latest 10 check-ins, represent the detail of last 10 check-ins
+and their details, demands, represent the demand note from customer and guests.
+Further you can check the following link to access hands on tutorial about dashboard: https://youtu.be/OmUw18k9DLU?si=4HfH8rrxGCq3gg6q
+
+Welcome to ORA PMS. You're all in one platform for property and inventory management.
+In this tutorial, we'll begin the inventory management journey by showing you how to
+create a supplier. The very first step in the inventory workflow. Why create a supplier first?
+In ORA PMS, every inventory transaction begins with a supplier. Whether you're adding an item,
+making a purchase, issuing stock, or generating a demand note,
+it's mandatory to first create a supplier. Step 1. Access the create supplier tab.
+From the left hand panel, go to the inventory drop down and click on create supplier. This
+opens the supplier registration form, your first stop in the inventory setup process.
+Step 2. Enter supplier information. Fill in the following required details.
+Supplier name or business name. Business email. Phone number.
+Address. SIP code. Next, from the drop down menus. Select the country. Then choose the relevant city.
+After entering all details, click on the submit button at the bottom of the form.
+Step 3. View and manage supplier records. Once submitted, the supplier's information will
+instantly appear in the live table below. You can manage your supplier list with ease.
+Click the edit icon under the options column to modify supplier details.
+Click the trash icon to delete a supplier if needed. Quick recap. Navigate to inventory create
+supplier. Fill in all supplier details, including name, contact, location, and address. Click submit
+to submit. Use the table below to edit or delete existing supplier records. Remember, this is the
+first and essential step before you proceed to. Add item. Create purchase. Issue stock. And finally,
+create a demand note. With ORA PMS, every inventory action starts with structured
+supplier data, making your records clean, traceable, and efficient.
+Further you can check the following link to access hands on tutorial about Creating a new supplier: https://youtu.be/d-kXxWBb8cA?si=20pWotLLpDHvmj0U
+
+
+
+From the left panel, select the upkeep services dropdown then click on the maintenance option.
+A list of all rooms that require maintenance appear on the screen.
+We click on that specific room to view the maintenance details.
+An image of a required maintenance and some description
+written by housekeeping appears, indicating the issue inside the room.
+Enter maintenance details.
+After filling the information and selecting the status, we click on the submit button.
+Once submitted, the room status gets updated.
+Further you can check the tech geni uk you tube channel to access hands on tutorial about ORA PMS Maintenance Module : https://youtu.be/tllZt8pGxHk?si=4CuW_KiIpftn9hQj
+
+
+First navigate to the left panel. Click on the inventory drop-down menu,
+then select the create item option. The item creation screen now appears,
+where you can input all the necessary details for the new inventory item.
+The first field is the SKU number, which is a unique system generated identifier for each item.
+Next, enter the item name. This is the name of the product you want to add.
+After that, fill in the cost of the item, which represents the price of one unit.
+Then, enter the quantity, indicating how many units of this item.
+In the unit field, select the appropriate measurement unit, such as pieces,
+liters, kilograms, etc. from the drop-down list. Now enter the reorder at value.
+This means that whenever the item's quantity falls below this level,
+the system will alert you to restock it. In the category field, you can either
+select an existing category or create a new category as needed.
+Similarly, for item type, you can choose from an existing type or add a new one.
+Finally, select the supplier for this item from the supplier list.
+Once all the fields are filled, click on the add button to save the item.
+After adding, the newly created item appears in the table below, displaying all its details.
+From the table, you also have the option to delete any record if needed by clicking the delete icon.
+Further you can check the tech geni uk you tube channel to access hands on tutorial about Item Creation in ORA PMS Inventory Module: https://youtu.be/l-WS6VmTwcQ?si=fbfzIcMiNzblTCTI
+
+
+In calendar, select the housekeeping button, then assign a housekeeper to the selected room.
+You can choose an existing staff member from the drop-down. Let's say we select Ali.
+Now, click the plus sign to assign this room to Ali, then click save view assigned rooms table.
+Once saved, the room assignment will appear in the assigned rooms table below.
+This table shows room number, assigned housekeeper, assignment status. If needed, you can also click
+the delete button to remove any assigned room, and it will disappear from the list immediately.
+Step four, start room inspection. Now, go to the back quote up keep services panel and click house
+keeping tab. Now select the room to be serviced. For example, room 103. A series of inspection
+questions will appear. For each question, select yes or no. If all answers are yes,
+the room will be marked as clean. But if any one answer is no, we will upload the image.
+The system will automatically send the room to maintenance mode and mark it as a dirty room in
+the hotel calendar. This ensures that only fully cleaned and approved rooms are made available for
+guest check-in. With this system, hotel managers and staff can assign rooms to specific housekeepers,
+track which staff is responsible for which room, monitor the cleanliness process step by step,
+instantly escalate any issue to maintenance, and maintain real-time updates in the hotel
+calendar. If you want to activate the room, go to the calendar, choose the dirty room,
+and press the activate now button. It's organized, easy to use, and fully integrated with your
+operations.
+Further you can check the tech geni uk you tube channel to access hands on tutorial about ORA PMS Housekeeping Module: https://youtu.be/xiVq6MQK_j4?si=4E3q7f7gXue97EQw
+
+Welcome back to ORA PMS, where inventory management becomes streamlined and reliable.
+In this tutorial, we'll walk you through how to create a purchase entry under the purchasing tab
+in the inventory module. Step 1. Navigate to the purchasing tab, expand the inventory dropdown on
+the left panel and click on purchasing. This is where you'll enter and manage all purchase
+records linked to your suppliers and stock items. Step 2. Fill out the purchase form.
+Begin by filling in the following required fields. Invoice number. Enter the unique invoice ID for
+the purchase. Category. Select the item category from the dropdown. Item name. Select the item
+you're purchasing. Once selected. The units such as kilogram, pack, or liter will appear automatically.
+The old purchase rate will also auto populate for reference. Next, enter the following manually.
+Quantity. Number of units being purchased. New purchase rate. The rate at which the
+item is being bought this time. Sales rate. The price at which the item will be sold.
+Now select the supplier from the dropdown list. Choose the payment type, whether it's cash,
+credit, or another method. The total bill will be calculated automatically based on the quantity
+and rate you entered. Step 3. Save the purchase entry. Once all fields are completed, click on
+the save button to store the purchase details. The record will instantly appear in the table
+below the form, showing a list of all saved purchases. Step 4. Print and post to main
+database. After saving, you have two important options. Click print to generate a physical or
+digital copy of the purchase voucher. Click post to officially submit the purchase entry to the main
+inventory database. This ensures the purchase is registered and can be tracked across the system
+for future issuance and reporting. Step 5. View vouchers with show voucher list. Want to review
+all previous purchase entries? Simply click on the show voucher list button to open a full list
+of purchase vouchers, complete with details, dates, and references. With Aura PMS, your procurement
+process stays organized, transparent, and fully traceable, right from purchase to posting.
+Further you can check the following link to access hands on tutorial about purchasing: https://youtu.be/RqKAtpYJDCM?si=Aap3yQPxgLp0SkOC
+
+Welcome to ORA PMS, where inventory control is simple, accurate, and efficient.
+In this tutorial, we'll guide you through the stock issuance process in the inventory module.
+Step 1. Open the stock issuance tab. Start by expanding the inventory dropdown
+on the left-hand panel and click on stock issuance. This opens the inventory issuance form,
+which allows you to issue stock items to rooms or departments within your property.
+Step 2. Fill out the issuance form. To issue a stock item,
+enter the following details. Category. Select the items category from the dropdown menu.
+Item name. Choose the specific item to be issued. Skew number will appear automatically.
+Next, assign where the item is being sent. Select the appropriate room category.
+One bed premium. Then choose the room number from the dropdown list.
+Now enter the quantity of the item to be issued, for example 1, 2.
+Step 3. Issue the stock. After all fields are complete, click the
+issue button. The stock will be officially issued and deducted from the inventory system.
+The issued record will appear instantly in the table below,
+showing a summary of all issued items along with room assignments.
+With ORA PMS, tracking inventory movement is just a click away,
+ensuring every item is accounted for and correctly issued.
+Further you can check the following link to access hands on tutorial about stock issuance: https://youtu.be/PSYLaIWAgC8?si=CcI1x9AUJ8Ut65KT
+
+
+
+Welcome back to ORA PMS, your complete hotel and inventory management solution.
+In this tutorial, we'll walk you through how to create a demand note using the inventory module.
+Step 1. Access the demand note tab.
+Begin by navigating to the left-hand panel and expanding the inventory dropdown.
+From the menu, select, demand note. This will open the demand form,
+where you can create and submit requests for new or replacement items.
+Step 2. Fill out the demand form.
+To submit a new demand, enter the following details.
+Title. Enter a short, descriptive title for the demand.
+Description. Provide details about the item or reason for the request.
+Quantity. Specify how many units are required.
+Expected cost. Enter the estimated cost for the requested items.
+Priority. Choose the urgency of the demand, such as high, medium, or low.
+Required by date. Select the date by which the item is needed.
+You can also attach an image of the existing item you wish to replace.
+This helps in visual verification and procurement accuracy.
+Step 3. Submit the demand.
+After filling in all the required fields, click the submit button.
+The demand will be added to the live table below the form, where it will be logged and tracked.
+Step 4. Manage demand entries.
+In the options column of the live demand table, you can.
+Update, edit the demand if changes are needed.
+Delete, remove the demand entirely.
+Finish, mark the demand as completed once the item has been received.
+Cancel, cancel the demand if it's no longer needed.
+ORA PMS makes demand tracking simple and organized,
+ensuring every request is processed with clarity and control.
+Further you can check the tech geni uk you tube channel to access hands on tutorial about ORA PMS Demand Note Tutorial: https://youtu.be/-2hyDB3FLnc?si=Mkqxrly3Z9a2UJs1
+
+
+
+Welcome to ORA PMS, where every aspect of your hospitality operation is managed with ease and
+precision. In this tutorial, we'll cover the laundry module, specifically the section that
+handles laundry services associated with hotel guests. Step 1. Access the Add Laundry tab.
+From the left-hand panel, expand the Laundry drop-down and click on Add Laundry. This is
+where you can set up the structure for guest laundry services. In this form, you can create
+categories, such as clothes, bedsheets, towels, etc. Define subcategories, like shirts, pants,
+blankets, etc. Add individual items under those categories. Assign a standard amount for each
+laundry item or service. Remember, this tab is fully linked to hotel customers, so everything
+created here is tied directly to guest records. Step 2. Add Laundry service for a guest.
+Once the categories are in place, move to the calendar view. Select the guest
+who requires laundry service and click on the Extend Check-in button.
+This will open the guest's check in details form. Step 3. Fill out laundry details. In the Check-in
+Details screen, go to the Laundry section and enter the following. Category. Select from the
+drop-down list you created earlier. Subcategory. Choose the appropriate type. Item. Pick the exact
+item being laundered. Description. Optional notes or instructions e.g., delicate wash, urgent.
+Quantity. Number of items being submitted.
+The rate will be auto-calculated based on the setup. The total amount will also be
+automatically calculated. After verifying the details, click on the Plus button to add the entry.
+Step 4. Billing the laundry charges. Once laundry items are added, you have two options for billing.
+Option 1. Separate laundry billing. Simply print the laundry bill from this section.
+Collect the laundry charges separately, independent of the guest's main bill.
+Option 2. Merge with main guest bill. In the same check-in details, go to the Billing Description
+section. Select Extras from the description drop-down. Choose laundry from the type drop-down.
+The total rate will be pulled in automatically. Choose whether to apply VAD or not.
+Click the Plus button to add it directly to the main guest invoice.
+This flexibility lets you decide how laundry charges are handled, either as a standalone bill
+or as part of the check-in package. This module is exclusively for guest-related laundry services.
+In our next video, we'll cover the internal hotel laundry linked to inventory,
+such as linens, uniforms, and staff usage.
+Further you can check the following link to access hands on tutorial about Add Laundry Items & Assign to Guest from Check-in: https://youtu.be/Qbn1rECb1Sg?si=ymGyeMjizPUs8QEb
+
+
+Welcome to ORA PMS. In this tutorial, we will explore the Laundry-in module under the Laundry
+dropdown, designed specifically for managing internal hotel laundry. What is Laundry-in?
+The Laundry-in tab handles the collection of used laundry items, like linens, towels,
+directly from guest rooms. When an item is submitted through this module, it is deducted
+from the room inventory and logged in the system. Step-by-step. How to record laundry-in?
+To create a new laundry-in entry, enter the invoice number, a unique identifier for the
+transaction. Select the item, such as a bedsheet, bath towel, or uniform from the dropdown.
+Choose the room number from which the item is being collected. Enter the housekeeper's name
+who is collecting the items. Specify the quantity being collected. Set the date and time of
+collection. Enter the name of the person to whom the laundry is being issued to,
+typically the laundry worker. Now click the add button. The entry will appear in the live table
+below, confirming the laundry has been logged. Verification tip. To verify that the item has
+been properly deducted from the room inventory, you can try re-entering the same item with the
+same or greater quantity. If the available stock has been reduced, the system will prevent the
+entry, confirming that laundry-in has affected the room's inventory. In the next video, we'll
+explore how to dispatch those items back to inventory using the laundry-out module.
+Further you can check the following link to access hands on tutorial about Laundry In module: https://youtu.be/iD0NRkzrQKo?si=se2kwSEmYJesTfhh
+
+
+
+Welcome back to ORA PMS. In this tutorial, we'll cover the second half of internal laundry
+management. The Laundry Out module. Used for returning laundered items back into hotel inventory.
+Understanding Laundry Out. Once items have been sent out using the Laundry in tab,
+their laundry invoices are automatically queued for dispatch in the Laundry Out tab.
+On the right panel, you'll find a section labeled Outstanding Laundry Invoices.
+Simply click on any invoice number listed there. The associated laundry details,
+including item type and quantity, will load in the table below for processing.
+Step 1. Optional Inventory Verification. To verify current stock levels before dispatch,
+you can visit the create item tab in the inventory module.
+Check the quantity listed for the selected item to ensure accuracy.
+Step 2. Process Laundry Out. Back in the Laundry Out tab, click to confirm the item is ready to
+return. The form fields will auto fill with invoice details. Now fill in. Received from,
+the name of the laundry worker or person returning the items.
+Quantity, the number of items being dispatched back to storage.
+Finally, click the dispatch button. The item will now be officially returned to inventory,
+and the system will log this entry. Step 3. Confirm Inventory Update.
+To confirm that the item has been successfully added back into the inventory,
+go back to the create item tab.
+Check the updated quantity for the item you just dispatched. You will see that the number has
+increased, proving that Laundry Out returns laundered items to inventory, whereas Laundry In
+deducts them from rooms. With Aura PMS, your internal laundry system stays fully integrated,
+traceable, and efficient, from room to laundry and back.
+Further you can check the following link to access hands on tutorial about Laundry Out and Return Clean Items to Guest and Update Laundry Status: https://youtu.be/uYak83cc-zw?si=1bER9f01CgoaexVj
+
+
+
+Welcome to the ORAPMS Hotel Management System tutorial.
+In this video, we'll explore two critical modules under the Accounts drop-down,
+Cashbook and Duplicate invoices.
+Let's begin with the Cashbook tab.
+This section is primarily designed for the accounts manager or property executive.
+It serves as a verification ledger to crosscheck the records submitted by the front desk officer
+FDO at the end of each shift. Once the FDO posts their cashbook entries,
+the data gets loaded here for managerial review.
+This process ensures complete transparency in the cash flow.
+You'll see a breakdown of each user's shift-wise transactions,
+cash, bank transfers, credit entries, and complimentary services.
+This powerful audit tool helps in identifying anomalies, confirming correct posting,
+and streamlining the revenue reconciliation process.
+Now, let's switch to the Duplicate Invoices tab.
+Here, you can view and reprint any invoice that has been previously generated.
+Just click on any invoice number from the list, and the full invoice will open in a printable
+format. These duplicates are useful for cross-verification, record-keeping,
+and multi-level audits, a great feature for ensuring robust documentation and financial control.
+Further you can check the following link to access hands on tutorial about Accounts Cashbook and Duplicate Invoices: https://youtu.be/kiG5to1EnaU?si=m2TFZ97ZXTxfCks2
+
+
+
+
+In this video, we'll walk you through two expense management modules in ORAPMS,
+which are of accounts menu, expense category and expense tabs. Start by clicking the expense
+category tab. Here, you'll enter the name of the expense category you want to create,
+such as utilities, maintenance, or administrative costs. Once added, the category will appear in the
+live table on the left side of your screen. You can add, edit, or delete any category at
+any time from the options column. Now go to the expense tab. Select your desired expense category
+from the drop down, then choose the expense type. This could be petty cash, sales, or other categories.
+Fill in the description field, input the amount, and click the add button. Your entry will now
+appear in the table below, giving you a real-time record of all logged expenses. You can update or
+remove these records through the options section. This feature ensures proper tracking of operational
+costs and helps the management keep a close eye on the daily, weekly, or monthly spending of the
+property. Further you can check the following link to access hands on tutorial about Expense Entry & Expense Categories: https://youtu.be/xop4ELsXXWs?si=gmiacSr_O2lRSMjC
+
+
+Welcome to the ORAPMS hotel management system. In this video, we'll explore the audit module,
+a vital feature designed to give hotel managers and administrators a consolidated overview of
+daily operations. As you land on the audit tab, you'll be greeted with a visual summary displaying
+several key audit checkpoints, each marked with either a green check or a red X, indicating
+whether the section is balanced or has discrepancies. Let's go through each section.
+Discount summary shows the total value of discounts applied for the day.
+Here it shows zero, meaning no discounts were given. Average room rate displays the average
+rate charged per room for that date. In this case, it's 36.3. Cashbook details reflects the
+total amount of cash posted by the front desk officer. A value of zero means no entries were
+posted today. Today's reservations, this indicates how many new reservations were made today.
+Currently, it shows count, zero. Complementary services displays the total cost of complementary
+services provided, which is zero here. No show analysis tells how many guests failed to show up
+for their bookings. Here, there are zero no shows. Receivable amounts displays the total pending
+receivables, in this case, 1531.78, which helps in credit recovery planning. Categorized payments
+shows all the payments received categorized by type EG, cash, card, online, helping to track
+financial diversity. At the bottom, we see availability check marked with a red X.
+This indicates a disparity count of two. These need to be reviewed and resolved to ensure
+inventory and booking alignment. If you click on any of these audit sections, a detailed table
+will appear below, showing specific entries contributing to that summary. Finally, by clicking
+the show full report button, a complete audit report for the day will be generated. You can
+then download this report as a PDF or printed directly for internal records or compliance
+audits. This audit feature brings transparency, accuracy, and real-time control to your daily
+hotel operations. Let me know.
+Further you can check the following link to access hands on tutorial about Night Audit Page Overview: https://youtu.be/s7vSU74Jsis?si=XtZEMECrO_2akJsq
+
+
+Welcome to ORAPMS, your complete hotel management suite.
+In this video, we'll explore essential guest and booking reports that help you deliver
+personalized service, manage room turnover, and optimize occupancy.
+All reports can be accessed from the View All Repots tab under the Reports drop-down.
+1. Customer Details Report
+This report is your central guest database.
+It displays key fields like guest name, CNIC or passport, contact, email, and booking source.
+You can also track check-in and check-out status alongside arrival and departure dates.
+A practical use?
+Filter for frequent guests maybe with more than five stays,
+and offer them a loyalty upgrade or a complimentary service.
+2. Arrivals Report
+Next is the Arrivals Report, your go-to list for all upcoming check-ins.
+Each record includes visit ID, guest name, arrival date, room type, and contact information.
+Be sure to monitor the status column.
+It shows whether a guest has already checked in or just has a reservation.
+This helps the front desk and housekeeping staff prioritize room readiness accordingly.
+3. Departures Report
+The Departures Report lists all guests scheduled to check-out on a given day.
+You'll see departure dates, room numbers, and the check-out status.
+Pro Tip
+If we can identify the trends such as over 78% of guests check-out between 10 a.m. and 12 p.m.,
+schedule your housekeeping accordingly to speed up room turnover and reduce downtime.
+4. Customer Extra Service Report
+This report highlights the revenue you generate from ancillary services such as laundry,
+shuttle, or special room requests.
+Each entry shows the service type, paid amount, and guest name.
+A good strategy?
+Guests like Jack Hill, who spent 88 pounds and 80 pence on laundry,
+could be targeted with service bundles.
+Like, Laundry Plus Room Service, at a 20% discount.
+5. No Show Report
+The number show report flags guests who had a reservation but didn't check-in.
+It includes guest name, arrival date, contact, and email.
+This report helps recover lost revenue.
+Set up your policy to automatically charge a one-night fee to the payment method on file
+when a no show is detected.
+6. Extended Stay Report
+This report identifies guests who extended their original stay.
+It displays their original and new departure dates, along with the updated status.
+Use this insight to upsell more effectively.
+For example, offer a 10% discount when a guest like Lucy Ford chooses to stay an extra night.
+7. Cancellation Report
+The cancellation report lets you monitor booking losses and trends.
+Each record shows guest name, arrival and departure dates, and booking source.
+If a specific room type sees 30% or more cancellations,
+it may be time to revise your pricing or deposit policy.
+8. Occupancy Report
+This report presents a calendar that clearly shows which rooms are booked and which are vacant.
+You can use this report to analyze day by day or by room blocks.
+If Tuesdays show low occupancy, for example, you could launch targeted midweek promotions.
+9. Daily Room Report
+And finally, the Daily Room Report offers a real-time view of current room usage.
+It includes key service requests like airport shuttle, restaurant, and early check-in,
+plus the number of adults and kids per room, and the booking source.
+For instance, if 10 or more rooms have, restaurant, flagged, it's time to alert the kitchen staff.
+These guest and booking reports form the core of proactive hospitality management.
+They help you improve service delivery, manage operational workflows,
+and generate new revenue streams.
+In the next video, we'll explore financial reports, including payments, revenue, and profit loss.
+Stay tuned and thank you for using ORAPMS. you tube channel to access hands on tutorial about Customer, Revenue, and Payments Reports in ORA PMS : https://youtu.be/jlpiCB-d_3I?si=9orYUwVft_EBWNxf
+
+Welcome back to ORAPMS. In this video, we'll walk through the key financial reports that keep your
+hotel's revenue in check, help detect irregularities, and guide smarter budgeting.
+Each report can be accessed via the View All Repots section in the Reports drop-down.
+Expense report
+The expense report gives you a clear view of all your operational costs.
+Each entry includes the category, like technology services or housekeeping,
+along with the description and amount. If you notice high-cost items,
+you can flag them for review. This report helps maintain cost control
+and identify areas for budget optimization. 2. Revenue report
+The revenue report captures all income generated from room bookings, extra services, and packages.
+It displays paid amount, GST or VAT, check-in, out dates, and payment dates.
+This is a vital tool for ensuring tax compliance.
+Use this report to track revenue trends and seasonal performance.
+3. Payments report
+The payments report provides detailed visibility into every transaction made.
+It shows the guest name, payment method, whether cash, card, or bank transfer,
+along with amount and posting date. It's also a great fraud prevention tool.
+4. Payment summary
+This report provides a high-level overview of all payments received over time.
+It breaks down totals by method, such as cash, bank transfer, or complementary,
+and can be filtered by date. 5. Profit loss report
+The profit loss report is your ultimate financial snapshot, showing your total income,
+expenses, and the resulting net profit or loss. Use this report in combination with revenue and
+expense reports to make data-driven financial decisions, such as revising package pricing or
+cutting low ROI costs. With these financial reports, ORAPMS gives your accounting and
+executive teams the tools they need for transparency, audit compliance, and strategic planning.
+Whether it's a single transaction or a full fiscal summary, every detail is trackable,
+reportable, and exportable. In our next video, we'll dive into operational reports,
+including inventory, housekeeping, laundry, and supplier management.
+Stay tuned, and thank you for choosing ORAPMS.
+Built by TechGeni Limited, where data drives performance. you tube channel to access hands on tutorial about Track Room Cleanliness & Stock Easily | ORA PMS Reports Tutorial – Part 2 https://youtu.be/NybHckSEQBI?si=qnvB5CqMKf8poLsp
+
+Welcome to Part 3 of the ORAPMS Reporting Suite.
+In this video, we'll explore the operational and inventory-focused
+reports that help you manage your hotel's daily logistics,
+from room supplies to staff performance, vendor relations, and linen tracking.
+All reports are accessible via the View All Repots tab under the Reports dropdown.
+1. Housekeeping Report
+The Housekeeping Report monitors daily room cleaning tasks, staff assignments,
+and workflow efficiency.
+It logs the room number, action taken, such as activated,
+assigned, or cleaned, along with the housekeeper name and timestamp.
+2. Room Inventory Report
+This report tracks what's inside each room, from towels to electronic appliances.
+You'll see columns like item name, quantity, room number, and room category.
+When any item's quantity drops to zero, like luxury bedsheet set, in room 107,
+it triggers replenishment planning, preventing guest dissatisfaction.
+3. Laundry Report
+The Laundry Report gives a full audit of the linen and garment flow through your laundry cycle.
+It shows the item title, quantity, received from staff, and date, time.
+4. Supplier Report
+The Supplier Report helps you manage vendor relationships.
+It includes supplier name, business type, contact info, address, and zip code.
+Keep it updated to simplify procurement and negotiate bulk discounts,
+for instance, reaching out to Linens Express for repeat orders.
+5. Purchasing Report
+The Purchasing Report logs every inventory acquisition.
+It features invoice number, supplier name, item cost, quantity, and total amount.
+Watch for budget overruns.
+If an item exceeds your specified end rate, say, 60 pounds for bedsheets,
+this report will help you catch it before it escalates.
+6. Store Inventory Report
+This report displays your entire inventory stock, filtered by supplier,
+category, item type, and cost range.
+After selecting filters like start rate and end rate,
+you'll see the remaining stock quantities and details in the table below.
+Use this report before placing new orders or auditing monthly stock levels.
+These operational and inventory reports keep your property running like a well-oiled machine.
+From managing towels and toiletries to tracking linen cycles and vendor costs,
+ORAPMS puts everything at your fingertips.
+Further you can check the tech geni uk you tube channel to access hands on tutorial about Monitor Hotel Performance with ORA PMS Reports part 3: https://youtu.be/M9EQdkRjZBg?si=jDw2L-ISSrem_oMHs
