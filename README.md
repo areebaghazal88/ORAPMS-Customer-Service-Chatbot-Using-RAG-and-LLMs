@@ -1,191 +1,387 @@
-```markdown
-# 🤖 Business-Customized Chatbot (Flask + Qdrant + HuggingFace)
+# 🤖 ORAPMS Customer Service Chatbot using RAG and LLMs
 
-This is a domain-specific chatbot that can be customized to any business (hotel, clinic, mart, etc.) simply by uploading a `.txt` file with relevant information. It uses vector similarity for context retrieval and Mistral-7B (via Hugging Face Inference API) for response generation. Optionally, it supports references for specific datasets (e.g., ORAPMS).
+A Retrieval-Augmented Generation (RAG) chatbot designed to answer business-specific customer service queries using a custom knowledge base.
+
+The chatbot allows businesses to upload their own knowledge base as a plain text file, which is automatically processed, embedded, indexed into a Qdrant vector database, and retrieved during inference. Retrieved context is then provided to **Mistral-7B-Instruct** through the Hugging Face Inference API to generate accurate, context-aware responses.
+
+The architecture is generic and can be adapted to various domains such as hotels, hospitals, restaurants, universities, or customer support systems by simply replacing the dataset.
 
 ---
 
-## 📁 Folder Structure
+# ✨ Features
+
+- 🔍 Retrieval-Augmented Generation (RAG)
+- 📄 Business-specific knowledge base from TXT files
+- ✂️ Automatic document preprocessing and chunking
+- 🧠 Semantic embeddings using **BAAI/bge-small-en-v1.5**
+- 🗂️ Vector similarity search with **Qdrant**
+- 🤖 Response generation using **Mistral-7B-Instruct**
+- ✅ Semantic response validation
+- 🎯 Intent matching
+- 📚 Optional reference matching for structured datasets
+- 💬 Conversation history support
+- 🌐 Flask-based REST API
+- 🎨 Simple web interface
+
+---
+
+# 🏗️ System Architecture
+
+> Replace the image below with your architecture diagram.
+
+<p align="center">
+  <img src="assets/rag_pipeline.png" width="900">
+</p>
+
+---
+
+# 🧠 RAG Pipeline
+
+The chatbot follows a Retrieval-Augmented Generation (RAG) workflow to generate reliable responses grounded in the uploaded business knowledge.
+
+## Step 1 — Knowledge Base
+
+Business information is provided as a plain text document.
+
+Example:
 
 ```
+Reservation Policy
+Room Categories
+Cancellation Policy
+Check-in Rules
+Payment Methods
+```
 
-CHATBOT2/
-├── data/                      # Upload business-specific .txt files here
+The chatbot can work with any business dataset by replacing this file.
+
+---
+
+## Step 2 — Text Preprocessing
+
+Before indexing, the dataset is cleaned by:
+
+- Removing unnecessary whitespace
+- Normalizing line breaks
+- Formatting text consistently
+
+This ensures higher-quality embeddings and better retrieval.
+
+---
+
+## Step 3 — Document Chunking
+
+Large documents are divided into overlapping chunks.
+
+```
+Chunk 1
+Chunk 2
+Chunk 3
+...
+```
+
+Chunk overlap preserves context across neighboring sections and improves retrieval accuracy.
+
+---
+
+## Step 4 — Embedding Generation
+
+Each chunk is converted into a dense semantic vector using
+
+**BAAI/bge-small-en-v1.5**
+
+Rather than relying on keyword matching, embeddings capture the semantic meaning of the text.
+
+---
+
+## Step 5 — Vector Storage
+
+The generated embeddings are stored inside a local **Qdrant** vector database.
+
+Each stored record contains:
+
+- Vector embedding
+- Original text chunk
+- Metadata
+
+This enables fast semantic similarity search during inference.
+
+---
+
+## Step 6 — User Query Embedding
+
+When a user asks a question, the same embedding model converts the query into a semantic vector.
+
+Example:
+
+```
+How do I create a reservation?
+```
+
+---
+
+## Step 7 — Semantic Retrieval
+
+The embedded query is compared against the stored vectors using cosine similarity.
+
+The chatbot retrieves the **Top-K** most relevant knowledge chunks from Qdrant.
+
+---
+
+## Step 8 — Prompt Construction
+
+The retrieved context is inserted into the system prompt before sending it to the language model.
+
+```
+System Prompt
+
+Context:
+Retrieved Chunk 1
+Retrieved Chunk 2
+Retrieved Chunk 3
+
+User:
+How do I create a reservation?
+```
+
+This grounds the language model on business-specific information instead of relying solely on its pre-trained knowledge.
+
+---
+
+## Step 9 — Response Generation
+
+The prompt is sent to
+
+**Mistral-7B-Instruct**
+
+through the Hugging Face Inference API.
+
+The model generates a context-aware response using only the retrieved information.
+
+---
+
+## Step 10 — Response Validation
+
+Before returning the answer, several validation steps are performed.
+
+### Semantic Similarity
+
+Checks whether the generated answer matches the retrieved context.
+
+### Intent Matching
+
+Ensures the response aligns with the user's question.
+
+### Context Entailment
+
+Verifies that the answer is supported by the retrieved knowledge.
+
+If validation fails, the chatbot attempts regeneration or returns a safe fallback response.
+
+---
+
+# 💬 Chatbot Demo
+
+<p align="center">
+  <img src="assets/chatbot_demo.png" width="500">
+</p>
+
+Example interaction showing the chatbot answering customer queries using information retrieved from the indexed business knowledge base.
+
+---
+
+# 📁 Project Structure
+
+```
+chatbot/
+│
+├── data/
 │   ├── mini dataset.txt
-│   └── trivelles\_dataset.txt
+│   └── trivelles_dataset.txt
 │
-├── qdrant\_data/              # Auto-generated vector store (delete before switching datasets)
-│   ├── collection/
-│   ├── .lock
-│   └── meta.json
+├── qdrant_data/
 │
-├── static/                   # Frontend styling
+├── static/
 │   ├── script.js
 │   └── style.css
 │
-├── templates/                # Frontend HTML template
+├── templates/
 │   └── index.html
 │
-├── venv/                     # Python virtual environment
-│
-├── .env                      # API keys and model config
-├── app.py                    # Main chatbot backend (Flask)
-├── delete.py                 # Optional cleanup script
-├── reference\_matcher.py      # Reference handler (for ORAPMS dataset only)
-├── references.json           # Reference metadata for ORAPMS
-├── requirements.txt          # Python dependencies
-├── setup\_vectorstore.py      # Embeds and stores your .txt file in Qdrant
-├── text\_loader.py            # Utility to load and format chunks
-├── web.config                # For deployment (e.g., IIS/Azure)
-└── README.md                 # This file
-
-````
+├── app.py
+├── text_loader.py
+├── setup_vectorstore.py
+├── reference_matcher.py
+├── references.json
+├── requirements.txt
+├── .env
+└── README.md
+```
 
 ---
 
-## ⚙️ Setup Instructions
+# ⚙️ Installation
 
-### 🔹 Step 1: Create Environment
+Clone the repository
 
 ```bash
-cd your-repo
+git clone https://github.com/yourusername/ORAPMS-Customer-Service-Chatbot-Using-RAG-and-LLMs.git
+
+cd ORAPMS-Customer-Service-Chatbot-Using-RAG-and-LLMs
+```
+
+Create a virtual environment
+
+```bash
 python -m venv venv
-venv\Scripts\activate   # or source venv/bin/activate
-pip install -r requirements.txt
-````
-
----
-
-### 🔹 Step 2: Configure `.env`
-
-Create a `.env` file in the root directory and add:
-
-```
-HF_TOKEN=your_huggingface_token
-EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
-MODEL=mistralai/Mistral-7B-Instruct-v0.1
-QDRANT_URL=http://localhost:6333
-QDRANT_API_KEY=your_qdrant_api_key_if_any
-COLLECTION_NAME=your_collection_name
 ```
 
----
+Activate it
 
-### 🔹 Step 3: Upload Your `.txt` File
-
-Place your desired business knowledge file in the `data/` folder.
-
-> 📌 For example: `trivelles_dataset.txt` for a hotel.
-
----
-
-### 🔹 Step 4: Delete Existing Vector DB
-
-Before switching datasets, **delete the existing Qdrant DB folder**:
+Windows
 
 ```bash
-rm -rf qdrant_data/
+venv\Scripts\activate
+```
+
+Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
 ```
 
 ---
 
-### 🔹 Step 5: Run `setup_vectorstore.py`
+# 🔑 Environment Variables
 
-Update the script with your file name and collection name inside:
+Create a `.env` file in the project root.
 
-```python
-# Inside setup_vectorstore.py
-FILE_PATH = "data/trivelles_dataset.txt"
-COLLECTION_NAME = "trivelles"
+```env
+HF_API_TOKEN=your_huggingface_token
+
+EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
+
+COLLECTION_NAME=customer_service_static
 ```
 
-Then run:
+---
+
+# 📄 Preparing Your Dataset
+
+Place your business knowledge file inside
+
+```
+data/
+```
+
+Example
+
+```
+data/mini dataset.txt
+```
+
+or
+
+```
+data/hotel_dataset.txt
+```
+
+---
+
+# 🗂️ Build the Vector Database
+
+Run
 
 ```bash
 python setup_vectorstore.py
 ```
 
-This loads, chunks, embeds, and stores your text into Qdrant.
+The script will
+
+- preprocess the document
+- split it into chunks
+- generate embeddings
+- store vectors inside Qdrant
 
 ---
 
-### 🔹 Step 6: Run `text_loader.py`
-
-This script formats and loads the chunks for retrieval.
-
-```bash
-python text_loader.py
-```
-
----
-
-### 🔹 Step 7: Run the Chatbot
+# ▶️ Run the Chatbot
 
 ```bash
 python app.py
 ```
 
-The chatbot runs at `http://localhost:5000` and can be accessed via frontend or API.
+The application starts on
 
----
-
-## 🧠 Dataset-Specific Reference Matching (ORAPMS only)
-
-* The `reference_matcher.py` and `references.json` are only used for datasets that include **structured references** (like **mini dataset / ORAPMS**).
-* If you're using a new `.txt` file without references, you **must remove or comment out** the reference matcher section in `app.py`.
-
-#### To enable references:
-
-* Make a `references.json` matching the structure of your custom dataset
-* Keep the matcher logic in `app.py` uncommented
-* It will automatically append reference notes in responses
-
----
-
-## 🌐 Frontend Usage
-
-The project includes a basic frontend:
-
-* `/templates/index.html`: HTML form for sending queries
-* `/static/style.css`: Styling
-* `/static/script.js`: Fetch-based AJAX for API requests
-
-To use it:
-
-1. Run `app.py`
-2. Open `http://localhost:5000/` in browser
-
----
-
-## 📤 API Usage
-
-You can also interact via API:
-
-```bash
-curl -X POST http://localhost:5000/chat \
-     -H "Content-Type: application/json" \
-     -d '{"message": "Do you have free WiFi?"}'
+```
+http://localhost:8080
 ```
 
 ---
 
-## 🧪 Test & Evaluate
+# 🌐 API
 
-You can build a test suite to evaluate chatbot answers against expected outputs (not included by default).
-
----
-
-## 🚫 Common Mistakes
-
-* ❗ **Forgetting to delete `qdrant_data/` when changing datasets**
-* ❗ **Leaving `reference_matcher.py` active for datasets that don’t need it**
-* ❗ **Not updating `FILE_PATH` and `COLLECTION_NAME` in `setup_vectorstore.py`**
-
----
-
-## 👩‍💻 Maintainer
-
-Areeba Ghazal
-Email: [yourname@example.com](mailto:areebaghazal88@gmail.com)
+POST request
 
 ```
+POST /chat
+```
+
+Example
+
+```json
+{
+    "message":"How do I create a reservation?"
+}
+```
+
+Response
+
+```json
+{
+    "response":"To create a reservation, navigate to the Reservation module and click Add Reservation..."
+}
+```
+
+---
+
+# 🛠️ Technologies Used
+
+- Python
+- Flask
+- Hugging Face Inference API
+- Mistral-7B-Instruct
+- Sentence Transformers
+- BAAI/bge-small-en-v1.5
+- LangChain
+- Qdrant
+- HTML
+- CSS
+- JavaScript
+
+---
+
+# 🚀 Future Improvements
+
+- Multi-document knowledge base
+- PDF and DOCX ingestion
+- Hybrid keyword + semantic search
+- Streaming LLM responses
+- Docker support
+- Cloud deployment
+- User authentication
+- Admin dashboard for dataset management
+
+---
+
+# 👩‍💻 Author
+
+**Areeba Ghazal**
+
+GitHub: https://github.com/areebaghazal88
